@@ -1,4 +1,4 @@
-# tyumgu
+# minecraft.ru
 
 Как с этим работать ?
 
