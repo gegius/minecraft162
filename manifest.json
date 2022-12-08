@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Minecraft recommendations",
+  "version": "1.6.2",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["minecraft.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+
+}
