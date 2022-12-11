@@ -19,11 +19,7 @@ const mutationObserver = new MutationObserver(function(mutations) {
 });
 
 mutationObserver.observe(document.documentElement, {
-  attributes: true,
-  characterData: true,
   childList: true,
-  subtree: true,
-  attributeOldValue: true,
-  characterDataOldValue: true
+  subtree: true
 });
 
